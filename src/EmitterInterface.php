@@ -14,4 +14,10 @@ interface EmitterInterface
      * @return mixed
      */
     public function emit(EventInterface $event);
+
+    /**
+     * @param string $event The event name to listen for
+     * @return mixed
+     */
+    public function emitName(E$event);
 }

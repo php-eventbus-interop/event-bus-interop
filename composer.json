@@ -1,4 +1,13 @@
 {
+  "name": "eventbus-interop/eventbus-interop",
+  "description": "Interoperability interface definitions for event buses",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Barney Hanlon",
+      "email": "barney@shrikeh.net"
+    }
+  ],
   "require-dev": {
       "escapestudios/symfony2-coding-standard": "^2.9"
   },
