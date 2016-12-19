@@ -1,6 +1,7 @@
 {
   "name": "eventbus-interop/eventbus-interop",
   "description": "Interoperability interface definitions for event buses",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
