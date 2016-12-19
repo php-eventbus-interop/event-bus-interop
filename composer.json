@@ -1,0 +1,13 @@
+{
+  "require-dev": {
+      "escapestudios/symfony2-coding-standard": "^2.9"
+  },
+  "autoload": {
+      "psr-4": {
+          "InterOp\\EventBus\\": "src"
+      }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
