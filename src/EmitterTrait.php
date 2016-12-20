@@ -4,26 +4,33 @@ namespace InterOp\EventBus;
 use InterOp\EventBus\EventInterface;
 
 /**
- * Interface EmitterInterface
- * @package InterOp\EventBus\Emitter
+ * Class EmitterTrait
+ * @package InterOp\EventBus
  */
-interface EmitterInterface
+trait EmitterTrait
 {
     /**
      * @param EventInterface|string $event The event triggered
      * @return mixed
      */
-    public function emit($event);
+    public function emit($event)
+    {
+        if ($event instanceof EventInterface) {
+            return $this->emitEvent($event);
+        }
+
+        return $this->emitName($event);
+    }
 
     /**
      * @param EventInterface $event The event triggered
      * @return mixed
      */
-    public function emitEvent(EventInterface $event);
+    abstract public function emitEvent(EventInterface $event);
 
     /**
      * @param string $event The event name to listen for
      * @return mixed
      */
-    public function emitName($event);
+    abstract public function emitName($event);
 }
