@@ -4,7 +4,7 @@ namespace EventIO\InterOp;
 use EventIO\InterOp\EventInterface;
 
 /**
- * Class EmitterTrait
+ * Trait EmitterTrait
  * @package EventIO\InterOp
  */
 trait EmitterTrait

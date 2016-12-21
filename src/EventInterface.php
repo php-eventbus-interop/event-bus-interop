@@ -14,7 +14,14 @@ interface EventInterface
     public function name();
 
     /**
-     * @return mixed
+     * Check whether propagation was stopped.
+     *
+     * @return bool
+     */
+    public function isPropagationStopped();
+
+    /**
+     * @return self
      */
     public function stopPropagation();
 }
