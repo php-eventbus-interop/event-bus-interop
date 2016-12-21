@@ -1,11 +1,11 @@
 <?php
-namespace InterOp\EventBus;
+namespace EventIO\InterOp;
 
-use InterOp\EventBus\EventInterface;
+use EventIO\InterOp\EventInterface;
 
 /**
  * Class EmitterTrait
- * @package InterOp\EventBus
+ * @package EventIO\InterOp
  */
 trait EmitterTrait
 {

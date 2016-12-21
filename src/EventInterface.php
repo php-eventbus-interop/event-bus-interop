@@ -1,9 +1,9 @@
 <?php
-namespace InterOp\EventBus;
+namespace EventIO\InterOp;
 
 /**
  * Interface EventInterface
- * @package InterOp\EventBus
+ * @package EventIO\InterOp
  */
 interface EventInterface
 {
@@ -12,4 +12,9 @@ interface EventInterface
      * @return string
      */
     public function name();
+
+    /**
+     * @return mixed
+     */
+    public function stopPropagation();
 }

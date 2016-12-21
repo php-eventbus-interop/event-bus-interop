@@ -1,9 +1,9 @@
 <?php
-namespace InterOp\EventBus;
+namespace EventIO\InterOp;
 
 /**
  * Interface ListenerAcceptorInterface
- * @package InterOp\EventBus
+ * @package EventIO\InterOp
  */
 interface ListenerAcceptorInterface
 {

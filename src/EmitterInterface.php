@@ -1,11 +1,11 @@
 <?php
-namespace InterOp\EventBus;
+namespace EventIO\InterOp;
 
-use InterOp\EventBus\EventInterface;
+use EventIO\InterOp\EventInterface;
 
 /**
  * Interface EmitterInterface
- * @package InterOp\EventBus\Emitter
+ * @package EventIO\InterOp\Emitter
  */
 interface EmitterInterface
 {

@@ -11,11 +11,11 @@
   ],
   "require-dev": {
     "escapestudios/symfony2-coding-standard": "^2.9",
-    "eventbus-interop/phpleague": "self.version"
+    "eventio/phpleague": "self.version"
   },
   "autoload": {
       "psr-4": {
-          "InterOp\\EventBus\\": "src"
+          "EventIO\\InterOp\\": "src"
       }
   },
   "minimum-stability": "dev",
