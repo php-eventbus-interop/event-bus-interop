@@ -10,8 +10,7 @@
     }
   ],
   "require-dev": {
-    "escapestudios/symfony2-coding-standard": "^2.9",
-    "eventbus-interop/phpleague": "self.version"
+    "escapestudios/symfony2-coding-standard": "^2.9"
   },
   "autoload": {
       "psr-4": {

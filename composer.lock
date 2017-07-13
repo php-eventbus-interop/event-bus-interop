@@ -4,28 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d8196249d5b9c055b0e6ce0e6405a028",
-    "content-hash": "b9d262f360a00513f8239a38b55910d7",
+    "content-hash": "b42c49a70da284d5639f3d9af07993d9",
     "packages": [],
     "packages-dev": [
         {
             "name": "escapestudios/symfony2-coding-standard",
-            "version": "2.9.1",
+            "version": "2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/djoos/Symfony2-coding-standard.git",
-                "reference": "03bd93ece3dc004fd49e766bf546f8cf58c64cb8"
+                "url": "https://github.com/djoos/Symfony-coding-standard.git",
+                "reference": "9f3cee2546b7369c1ecb5045b10a6d479bc99f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/djoos/Symfony2-coding-standard/zipball/03bd93ece3dc004fd49e766bf546f8cf58c64cb8",
-                "reference": "03bd93ece3dc004fd49e766bf546f8cf58c64cb8",
+                "url": "https://api.github.com/repos/djoos/Symfony-coding-standard/zipball/9f3cee2546b7369c1ecb5045b10a6d479bc99f7e",
+                "reference": "9f3cee2546b7369c1ecb5045b10a6d479bc99f7e",
                 "shasum": ""
             },
             "require": {
                 "squizlabs/php_codesniffer": "~2.0"
             },
-            "type": "coding-standard",
+            "type": "phpcodesniffer-standard",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.x-dev"
@@ -42,30 +41,31 @@
                 },
                 {
                     "name": "Community contributors",
-                    "homepage": "https://github.com/escapestudios/Symfony2-coding-standard/graphs/contributors"
+                    "homepage": "https://github.com/djoos/Symfony2-coding-standard/graphs/contributors"
                 }
             ],
-            "description": "CodeSniffer ruleset for the Symfony2 coding standard",
-            "homepage": "https://github.com/escapestudios/Symfony2-coding-standard",
+            "description": "CodeSniffer ruleset for the Symfony 2+ coding standard",
+            "homepage": "https://github.com/djoos/Symfony2-coding-standard",
             "keywords": [
                 "Coding Standard",
                 "Symfony2",
-                "phpcs"
+                "phpcs",
+                "symfony"
             ],
-            "time": "2016-03-14 16:38:04"
+            "time": "2017-06-08T11:06:02+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.7.1",
+            "version": "2.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f"
+                "reference": "68fb8e5c76da4a220275ecce7179f25c9ecc2b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/9b324f3a1132459a7274a0ace2e1b766ba80930f",
-                "reference": "9b324f3a1132459a7274a0ace2e1b766ba80930f",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/68fb8e5c76da4a220275ecce7179f25c9ecc2b13",
+                "reference": "68fb8e5c76da4a220275ecce7179f25c9ecc2b13",
                 "shasum": ""
             },
             "require": {
@@ -130,11 +130,11 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2016-11-30 04:02:31"
+            "time": "2017-07-13T01:37:12+00:00"
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
