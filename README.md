@@ -1,8 +1,6 @@
 # event-bus-interop
-[![build_status_img]][build_status_travis]
+
 [![code_quality_img]][code_quality]
-[![latest_stable_version_img]][latest_stable_version]
-[![latest_unstable_version_img]][latest_unstable_version]
 [![license_img]][license]
 [![twitter_img]][twitter]
 
@@ -50,7 +48,7 @@ The event bus interop project has been heavily influenced by the work of the [co
 [code_quality]: https://scrutinizer-ci.com/g/php-eventbus-interop/event-bus-interop/?branch=master
 [code_quality_img]: https://img.shields.io/scrutinizer/g/php-eventbus-interop/event-bus-interop.svg "Scrutinizer Code Quality"
 [container-interop]: https://github.com/container-interop/container-interop
-[latest_stable_version_img]: https://img.shields.io/packagist/v/eventbus-interop/eventbus-interop.svg "Latest Stable Version"
+[latest_stable_version_img]: https://img.shields.io/packagist/eventbus-interop/eventbus-interop.svg "Latest Stable Version"
 [latest_stable_version]: https://packagist.org/packages/eventbus-interop/eventbus-interop "Latest Stable Version"
 
 [latest_unstable_version_img]: https://img.shields.io/packagist/vpre/eventbus-interop/eventbus-interop.svg "Latest Unstable Version"
