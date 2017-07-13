@@ -17,7 +17,6 @@ trait EventTrait
      */
     private $propogationStopped = false;
 
-
     /**
      * The name of the event
      * @return string
