@@ -1,8 +1,6 @@
 <?php
 namespace EventIO\InterOp;
 
-use EventIO\InterOp\EventInterface;
-
 /**
  * Trait EmitterTrait
  * @package EventIO\InterOp
@@ -20,19 +18,19 @@ trait EmitterTrait
     }
 
     /**
-     * @param \EventIO\InterOp\EventInterface $event
+     * @param EventInterface $event An event to emit
      * @return mixed
      */
     abstract public function emitEvent(EventInterface $event);
 
     /**
-     * @param $event
+     * @param string $event An event name
      * @return mixed
      */
     abstract public function emitName($event);
 
     /**
-     * @param $event
+     * @param string|EventInterface $event An event received
      * @return mixed
      */
     private function parseEvent($event)
@@ -40,6 +38,7 @@ trait EmitterTrait
         if ($event instanceof EventInterface) {
             return $this->emitEvent($event);
         }
+
         return $this->emitName($event);
     }
 }

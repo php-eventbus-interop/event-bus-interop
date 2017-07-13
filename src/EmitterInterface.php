@@ -9,8 +9,9 @@ use EventIO\InterOp\EventInterface;
  */
 interface EmitterInterface
 {
+
     /**
-     * @param EventInterface|string $events The event triggered
+     * @param array ...$events The event triggered
      * @return mixed
      */
     public function emit(...$events);
@@ -22,7 +23,7 @@ interface EmitterInterface
     public function emitEvent(EventInterface $event);
 
     /**
-     * @param string $event The event name to listen for
+     * @param string $event The event name to emit
      * @return mixed
      */
     public function emitName($event);
