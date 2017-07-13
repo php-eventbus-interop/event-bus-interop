@@ -19,6 +19,8 @@ Installation is via [composer]:
 ```bash
 composer require eventbus-interop/eventbus-interop
 ```
+The packages adheres to the [SemVer] specification, and there will be full backward compatibility
+between minor versions.
 
 The library contains several interfaces for usage by event buses:
 
@@ -53,7 +55,7 @@ The event bus interop project has been heavily influenced by the work of the [co
 
 [latest_unstable_version_img]: https://img.shields.io/packagist/vpre/eventbus-interop/eventbus-interop.svg "Latest Unstable Version"
 [latest_unstable_version]: https://packagist.org/packages/eventbus-interop/eventbus-interop "Latest Unstable Version"
-
+[SemVer]: http://semver.org/
 [license_img]: https://img.shields.io/packagist/l/eventbus-interop/eventbus-interop.svg "License"
 [license]: https://packagist.org/packages/eventbus-interop/eventbus-interop
 
