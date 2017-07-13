@@ -11,6 +11,10 @@ There are a number of event buses available within PHP, and they all slightly di
 
 This is an effort to have _all_ event buses use common interfaces that allow interoperability between emitters, events and listeners.
 
+## Requirements
+
+The library requires PHP 5.6 or greater.
+
 ## Installation
 
 Installation is via [composer]:
