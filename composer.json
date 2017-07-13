@@ -18,6 +18,11 @@
           "EventIO\\InterOp\\": "src"
       }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "EventIO\\InterOp\\Examples\\": "examples"
+    }
+  },
   "minimum-stability": "dev",
   "config": {
     "bin-dir": "bin"

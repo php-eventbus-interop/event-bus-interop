@@ -10,27 +10,36 @@ use EventIO\InterOp\EventInterface;
 trait EmitterTrait
 {
     /**
-     * @param EventInterface|string $event The event triggered
-     * @return mixed
+     * @param array ...$events The events triggered
      */
-    public function emit($event)
+    public function emit(...$events)
     {
-        if ($event instanceof EventInterface) {
-            return $this->emitEvent($event);
+        foreach ($events as $event) {
+            $this->parseEvent($event);
         }
-
-        return $this->emitName($event);
     }
 
     /**
-     * @param EventInterface $event The event triggered
+     * @param \EventIO\InterOp\EventInterface $event
      * @return mixed
      */
     abstract public function emitEvent(EventInterface $event);
 
     /**
-     * @param string $event The event name to listen for
+     * @param $event
      * @return mixed
      */
     abstract public function emitName($event);
+
+    /**
+     * @param $event
+     * @return mixed
+     */
+    private function parseEvent($event)
+    {
+        if ($event instanceof EventInterface) {
+            return $this->emitEvent($event);
+        }
+        return $this->emitName($event);
+    }
 }

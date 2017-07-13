@@ -13,7 +13,7 @@ interface EmitterInterface
      * @param EventInterface|string $event The event triggered
      * @return mixed
      */
-    public function emit($event);
+    public function emit(...$event);
 
     /**
      * @param EventInterface $event The event triggered
