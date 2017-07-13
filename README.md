@@ -37,6 +37,9 @@ This defines three methods: `emit()`, which accepts multiple events as a [variad
 ### ListenerAcceptorInterface
 This defines a simple method, `addListener()`, which accepts three arguments: the event ID to bind the event to, the listener itself, and an optional integer priority.
 
+## Credits
+
+The event bus interop project has been heavily influenced by the work of the [container-interop] project, which led to a robust unification of the various DI containers within the PHP community.
 
 
 [build_status_img]: https://img.shields.io/travis/eventbus-interop/eventbus-interop.svg "Build Status"
@@ -44,7 +47,7 @@ This defines a simple method, `addListener()`, which accepts three arguments: th
 [composer]: https://getcomposer.org/
 [code_quality]: https://scrutinizer-ci.com/g/eventbus-interop/eventbus-interop/?branch=master
 [code_quality_img]: https://img.shields.io/scrutinizer/g/eventbus-interop/eventbus-interop.svg "Scrutinizer Code Quality"
-
+[container-interop]: https://github.com/container-interop/container-interop
 [latest_stable_version_img]: https://img.shields.io/packagist/v/eventbus-interop/eventbus-interop.svg "Latest Stable Version"
 [latest_stable_version]: https://packagist.org/packages/eventbus-interop/eventbus-interop "Latest Stable Version"
 
