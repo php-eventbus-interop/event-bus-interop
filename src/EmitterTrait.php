@@ -8,7 +8,8 @@ namespace EventIO\InterOp;
 trait EmitterTrait
 {
     /**
-     * @param array ...$events The events triggered
+     * @param array ...$events The event triggered
+     * @return mixed
      */
     public function emit(...$events)
     {
