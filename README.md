@@ -47,8 +47,8 @@ The event bus interop project has been heavily influenced by the work of the [co
 [build_status_img]: https://img.shields.io/travis/eventbus-interop/eventbus-interop.svg "Build Status"
 [build_status_travis]: https://travis-ci.org/eventbus-interop/eventbus-interop
 [composer]: https://getcomposer.org/
-[code_quality]: https://scrutinizer-ci.com/g/eventbus-interop/eventbus-interop/?branch=master
-[code_quality_img]: https://img.shields.io/scrutinizer/g/eventbus-interop/eventbus-interop.svg "Scrutinizer Code Quality"
+[code_quality]: https://scrutinizer-ci.com/g/php-eventbus-interop/event-bus-interop/?branch=master
+[code_quality_img]: https://img.shields.io/scrutinizer/g/php-eventbus-interop/event-bus-interop.svg "Scrutinizer Code Quality"
 [container-interop]: https://github.com/container-interop/container-interop
 [latest_stable_version_img]: https://img.shields.io/packagist/v/eventbus-interop/eventbus-interop.svg "Latest Stable Version"
 [latest_stable_version]: https://packagist.org/packages/eventbus-interop/eventbus-interop "Latest Stable Version"
