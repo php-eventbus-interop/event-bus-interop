@@ -16,7 +16,7 @@ trait EventTrait
      * @var boolean
      */
     private $propogationStopped = false;
-    
+
 
     /**
      * The name of the event

@@ -10,10 +10,10 @@ use EventIO\InterOp\EventInterface;
 interface EmitterInterface
 {
     /**
-     * @param EventInterface|string $event The event triggered
+     * @param EventInterface|string $events The event triggered
      * @return mixed
      */
-    public function emit(...$event);
+    public function emit(...$events);
 
     /**
      * @param EventInterface $event The event triggered
