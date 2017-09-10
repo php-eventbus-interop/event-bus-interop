@@ -15,7 +15,7 @@ trait EventTrait
     /**
      * @var boolean
      */
-    private $propogationStopped = false;
+    private $propagationStopped = false;
 
     /**
      * The name of the event
@@ -33,7 +33,7 @@ trait EventTrait
      */
     public function isPropagationStopped(): bool
     {
-        return ($this->propogationStopped);
+        return ($this->propagationStopped);
     }
 
     /**
@@ -41,7 +41,7 @@ trait EventTrait
      */
     public function stopPropagation(): self
     {
-        $this->propogationStopped = true;
+        $this->propagationStopped = true;
 
         return $this;
     }
